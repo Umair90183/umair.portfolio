@@ -63,8 +63,6 @@ body::after {
     margin: 20px auto;
     cursor: pointer;
     color: #fff;
-    position: relative;
-    z-index: 100;
 }
 
 .header .overlay {
@@ -83,13 +81,11 @@ body::after {
     flex-direction: column;
     gap: 8px;
     background-color: #777981;
-    font-family: jetBrains !important;
+    z-index: 999;
 }
 
 .header .overlay a {
     color: #fff;
-    font-family: jetBrains !important;
-    font-size: 13px;
 }
 
 .header.active .overlay {
