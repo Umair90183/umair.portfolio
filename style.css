@@ -109,13 +109,13 @@ body {
     overflow: visible;
     background-color: #777981;
     border-radius: 5px;
+    object-fit: cover;
 }
 
 .picture img {
     z-index: 10;
     width: 100%;
     height: 100%;
-    object-fit: cover;
 }
 
 .picture .over1 {
